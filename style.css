@@ -1,0 +1,126 @@
+    body {
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    }
+
+    .image {
+    display: flex;
+    justify-content: center;
+    }
+
+    .login {
+    width: 400px;
+    height: 500px;
+    background: #e6e1d9;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    }
+  
+    .avatar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    }
+  
+    h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #030303;
+    }
+  
+    .login label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    color: #030303;
+    }
+  
+    .login input {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+  
+    .login input[type="text"],
+    .login input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #030303;
+    font-size: 16px;
+    }
+  
+    .login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ead6b6;
+    color: #030303;
+    font-size: 18px;
+    border-radius: 20px;
+    }
+  
+    .login input[type="submit"]:hover {
+    cursor: pointer;
+    background: #e2ce85;
+    color: #000;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: #030303;
+    }
+    a:hover {
+        color: #dd6c3f;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+      
+    .social-icons a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+      
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ddd;
+        border-radius: 50%; 
+        padding: 5px; 
+    }
+      
+    .social-icons img:hover {
+        background-color: #ddd; 
+    }
+      
+    .login form {
+        margin-top: 20px;
+    }
+
+    #apple{
+        width: 50px;
+    }
+
+    #twitter{
+        height: 45px;
+        width: 50px;
+    }
