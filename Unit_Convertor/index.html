@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+   
+    <div class="converter">
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <select id="inputUnit">
+            <option value="meter">Meter</option>
+            <option value="feet">Feet</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="mile">Mile</option>
+        </select>
+        <select id="outputUnit"> 
+            <option value="meter">Meter</option>
+            <option value="feet">Feet</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="mile">Mile</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <h2>Input Unit: <span id="inputUnitLabel"></span></h2>
+        <h2>Converted Value: <span id="convertedValue"></span></h2>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="converter">
+        <h1>Unit Converter</h1>
+        <div class="input-group">
+            <input type="number" id="inputValue" placeholder="Enter value" inputmode="numeric">
+            <select id="inputUnit">
+                <option value="meter">Meter</option>
+                <option value="feet">Feet</option>
+                <option value="kilometer">Kilometer</option>
+                <option value="mile">Mile</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <select id="outputUnit">
+                <option value="meter">Meter</option>
+                <option value="feet">Feet</option>
+                <option value="kilometer">Kilometer</option>
+                <option value="mile">Mile</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+        </div>
+        <div class="result">
+            <h2>Input Unit: <span id="inputUnitLabel"></span></h2>
+            <h2>Converted Value: <span id="convertedValue"></span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
